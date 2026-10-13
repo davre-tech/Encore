@@ -843,9 +843,8 @@ export function LoginPage({ mode = 'signin' }: LoginPageProps) {
 
                   <button
                     type="button"
-                    disabled
-                    title="GitHub sign-in is not set up yet"
-                    className="flex cursor-not-allowed items-center justify-center rounded-xl border border-border bg-background px-4 py-3 opacity-50"
+                    title="Sign in with GitHub"
+                    className="flex items-center justify-center rounded-xl border border-border bg-background px-4 py-3"
                   >
                     {/* GitHub SVG */}
                     <svg className="mr-2 h-5 w-5 text-white/70" fill="currentColor" viewBox="0 0 24 24">
